@@ -88,6 +88,21 @@
         background-position: center;
     
      }
+     .header {
+        color: rgb(6, 84, 58);
+    }
+
+    .main {
+        color: rgb(6, 84, 58);
+    }
+
+    .footer ul a {
+        color: rgb(6, 84, 58);
+    }
+
+    .footer {
+        color: rgb(6, 84, 58);
+    }
     .container { 
     background-color: beige;
     color:brown;
@@ -122,15 +137,31 @@
 background-image: url("../img/profile2.jpg"); 
 background-position: center;
 }
+.header {
+    color: rgb(84, 6, 74);
+}
+
+.main {
+    color: rgb(160, 42, 164);
+}
+
+.footer ul a {
+    color: rgb(155, 24, 129);
+}
+
+.footer {
+    color: rgb(213, 72, 218);
+}
 .container {
     background-color: blue;
-    color: azure;
 
  }
  .navigation ul li {
-   border: 1px solid violet;
+    color: rgb(32, 5, 57);
+   border: 1px solid rgb(103, 19, 103);
 }
 }
+
 
 
 @media (min-width: 1024px){
@@ -139,14 +170,25 @@ background-image: url("../img/profile3.jpg");
 background-position: center;
 
     }
+    .header {
+        color: rgb(40, 150, 169);
+    }
+    
+    .main {
+        color: rgb(25, 62, 173);
+    }
+    
+    .footer ul a {
+        color: rgb(50, 144, 199);
+    }
+    
+    .footer {
+        color: rgb(6, 84, 58);
+    }
 .container {
 background-color: bisque;
 color: aliceblue;
  }
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
 }
 
 
@@ -155,9 +197,24 @@ color: aliceblue;
 background-image: url("../img/profile4.jpg");
 background-position: center;
     }
+    .header {
+        color: rgb(184, 84, 157);
+    }
+    
+    .main {
+        color: rgb(129, 17, 116);
+    }
+    
+    .footer ul a {
+        color: rgb(210, 97, 201);
+    }
+    
+    .footer {
+        color: rgb(189, 42, 172);
+    }
 .container { 
 background-color: blueviolet;
-color: rgb(176, 146, 205);
+color: rgb(64, 10, 114);
 }
     /*muuda image-container taustapilti*/
     /*muuda dokumendi taustavärvi*/
@@ -169,7 +226,7 @@ color: rgb(176, 146, 205);
     .navigation ul li {
         display: inline-block;
         width: 16rem;
-        border: 1px solid rgb(160, 37, 160);
+    
     }
     
     .navigation ul li:not(:last-child) {
